@@ -16,4 +16,5 @@ Route::get('/', function () {
 });
  
 
-Route::get('/home','homeController@show');
+Route::get('/home','homeController@showHome');
+Route::get('/carrito','carritoController@showCarrito');
