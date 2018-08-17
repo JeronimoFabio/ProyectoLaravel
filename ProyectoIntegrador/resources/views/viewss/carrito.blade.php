@@ -17,13 +17,13 @@
   @include('/includes/header');
  
   <div class="login">
-  <a href="/viewss/Login.php">Login</a>
-  <a href="/viewss/signin.php">Sign In</a>
+  <a href="/login">Login</a>
+  <a href="/register">Sign In</a>
   </div>
 
 <!--contenido-->
 <main>
-  <img src="images/carritoespacio.png" alt="espacio">
+  <img src="/images/carritoespacio.png" alt="espacio">
  <!-- <?php
   // $db = new PDO('mysql:host=127.0.0.1;dbname=dbproyecto;port=3306','root','');
   // $query = $db->query('SELECT * FROM productos');

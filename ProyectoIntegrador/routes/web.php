@@ -14,7 +14,13 @@
 Route::get('/', function () {
     return view('welcome');
 });
- 
 
-Route::get('/home','homeController@showHome');
-Route::get('/carrito','carritoController@showCarrito');
+
+Route::get('/viewss/inicio','Front\InicioController@showInicio');
+Route::get('/viewss/carrito','Front\CarritoController@showCarrito');
+Route::get('register', 'Auth\RegisterController@showSignin');
+Route::get('login', 'Auth\LoginController@showLogin');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

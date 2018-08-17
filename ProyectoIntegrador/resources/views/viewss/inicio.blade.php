@@ -13,28 +13,28 @@
   @include('includes/header');
    
   <div class="login">
-  <a href="/viewss/login.php">Login</a>
-  <a href="/viewss/signin.php">Sign In</a>
+  <a href="/login">Login</a>
+  <a href="/register">Sign In</a>
   </div>
 
 <!--contenido-->
 <main>
   <article class="cocinas">
-    <img src="images/cocinas.jpg" alt="cocinas">
-    <a href="/viewss/home.php">COCINAS</a>
+    <img src="/images/cocinas.jpg" alt="cocinas">
+    <a href="/viewss/home">COCINAS</a>
   </article>
   <article class="hornos">
-    <img src="images/hornos.jpg" alt="hornos">
-    <a href="/viewss/home.php">HORNOS</a>
+    <img src="/images/hornos.jpg" alt="hornos">
+    <a href="/viewss/home">HORNOS</a>
   </article>
   <article class="anafes">
-    <img src="images/anafes.jpg" alt="anafes">
-    <a href="/veiwss/home.php">ANAFES</a>
+    <img src="/images/anafes.jpg" alt="anafes">
+    <a href="/veiwss/home">ANAFES</a>
   </article>
   <article class="campanas">
 
-    <img src="images/campanas.jpg" alt="campanas">
-    <a href="/viewss/home.php">CAMPANAS</a>
+    <img src="/images/campanas.jpg" alt="campanas">
+    <a href="/viewss/home">CAMPANAS</a>
   </article>
 
 </main>
