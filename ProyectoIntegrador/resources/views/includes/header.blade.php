@@ -3,7 +3,7 @@
   <ul>
 
     <li><a href="/viewss/carrito">Carrito</a></li>
-    <li><a href="/viewss/contacto.php">Contáctanos</a></li>
-    <li><a href="/viewss/PreguntasFrecuentes.php">Preguntas Frecuentes</a></li>
+    <li><a href="/viewss/contacto">Contáctanos</a></li>
+    <li><a href="/viewss/faq">Preguntas Frecuentes</a></li>
   </ul>
 </nav>

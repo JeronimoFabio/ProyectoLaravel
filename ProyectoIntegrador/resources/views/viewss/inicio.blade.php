@@ -21,20 +21,20 @@
 <main>
   <article class="cocinas">
     <img src="/images/cocinas.jpg" alt="cocinas">
-    <a href="/viewss/home">COCINAS</a>
+    <a href="/viewss/inicio">COCINAS</a>
   </article>
   <article class="hornos">
     <img src="/images/hornos.jpg" alt="hornos">
-    <a href="/viewss/home">HORNOS</a>
+    <a href="/viewss/inicio">HORNOS</a>
   </article>
   <article class="anafes">
     <img src="/images/anafes.jpg" alt="anafes">
-    <a href="/veiwss/home">ANAFES</a>
+    <a href="/viewss/inicio">ANAFES</a>
   </article>
   <article class="campanas">
 
     <img src="/images/campanas.jpg" alt="campanas">
-    <a href="/viewss/home">CAMPANAS</a>
+    <a href="/viewss/inicio">CAMPANAS</a>
   </article>
 
 </main>

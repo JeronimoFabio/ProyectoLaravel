@@ -21,7 +21,7 @@
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1em;
   font-family: 'Questrial', sans-serif;
   font-size: 25px;

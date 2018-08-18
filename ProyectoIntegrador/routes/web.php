@@ -20,6 +20,8 @@ Route::get('/viewss/inicio','Front\InicioController@showInicio');
 Route::get('/viewss/carrito','Front\CarritoController@showCarrito');
 Route::get('register', 'Auth\RegisterController@showSignin');
 Route::get('login', 'Auth\LoginController@showLogin');
+Route::get('/viewss/faq', 'Front\FaqController@showFaq');
+Route::get('/viewss/contacto','Front\ContactoController@showContacto');
 
 Auth::routes();
 
