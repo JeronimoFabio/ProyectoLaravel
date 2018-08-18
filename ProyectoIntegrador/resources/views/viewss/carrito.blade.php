@@ -17,8 +17,8 @@
   @include('/includes/header');
  
   <div class="login">
-  <a href="/login">Login</a>
-  <a href="/register">Sign In</a>
+  <a href="/login">Ingresar</a>
+  <a href="/register">Registración</a>
   </div>
 
 <!--contenido-->

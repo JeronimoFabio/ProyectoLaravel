@@ -1,4 +1,4 @@
-<nav>
+<nav class="barra">
   <a href="/viewss/inicio"><img src="/images/logo.PNG" id="logo" alt="logo"></a>
   <ul>
 

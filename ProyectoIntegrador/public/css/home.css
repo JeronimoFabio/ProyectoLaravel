@@ -19,8 +19,9 @@
 /* barra de navegacion de la pagina */
 nav {
   display: flex;
+  width: 100%
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 1em;
   font-family: 'Questrial', sans-serif;
   font-size: 25px;
@@ -71,9 +72,9 @@ nav img{
 
 }
 .login a{
-  width: 80px;
+  width: 95px;
   height: 30px;
-	font-size: 17px;
+	font-size: 16px;
   text-align: center;
   color: white;
   font-family: 'Questrial', sans-serif;

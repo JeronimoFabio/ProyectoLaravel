@@ -24,3 +24,5 @@ Route::get('login', 'Auth\LoginController@showLogin');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/backRegister', 'BackUp\BackUpController@index');
