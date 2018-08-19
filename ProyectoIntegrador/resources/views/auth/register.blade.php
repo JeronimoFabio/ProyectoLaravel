@@ -2,11 +2,13 @@
 
     
 @section('content')
+<div class="containerPrin">
+@include('/includes/header');
 <div class="container">
 
     <link rel="stylesheet"  href="/css/signin.css">
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-  @include('/includes/header');
+  
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -74,10 +76,15 @@
                             </div>
                         </div>
                     </form>
+                    <button class="btn btn-outline-warning">
+                        <a href="/viewss/inicio">Volver al Home</a>
+                    </button>
                 </div>
             </div>
         </div>
     </div>
-    @include('/includes/footer');
+    
+</div>
+@include('/includes/footer');
 </div>
 @endsection

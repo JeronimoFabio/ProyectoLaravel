@@ -5,7 +5,9 @@
 /*contiene el header y el contenido respectivo de la pagina*/
 
 /*NO HAY NADA AHORA EN EL HEADER*/
- header {
+ .containerPrin {
+  width: 100%;
+  display: inline-block;
 }
 /* barra de navegacion de la pagina */
 .barra {
@@ -21,12 +23,13 @@
 }
 /* NAV */
 .barra ul {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  background: black;
+      display: flex;
+    list-style: none;
+    padding: 0;
+    width: 50%;
+    background: black;
+    margin: 0;
+    justify-content: space-between
 }
 .barra li a {
   color: white;
