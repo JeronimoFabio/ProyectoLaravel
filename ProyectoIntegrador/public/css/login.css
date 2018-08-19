@@ -2,6 +2,12 @@
   padding: 0;
   margin: 0;
 }
+
+}
+.containerPrinc {
+  width: 100%;
+  display: inline-block;
+}
 /*contiene el header y el contenido respectivo de la pagina*/
  .container {
   display: flex;
@@ -13,11 +19,16 @@
   background: white;
 
 }
+.buttonSub{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 50px;
+}
 /*NO HAY NADA AHORA EN EL HEADER*/
  header {
 }
 /* barra de navegacion de la pagina */
-  nav {
+  .barra {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -28,7 +39,7 @@
   -moz-osx-font-smoothing: grayscale;
   background: black;
 }
-  nav ul {
+  .barra ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -37,26 +48,26 @@
   background: black;
   border-radius: 40px;
 }
-nav li a {
+.barra li a {
   color: white;
   display: block;
   text-decoration: none;
   padding: .5em 1em;
 }
-nav li a:hover {
+.barra li a:hover {
   background: tomato;
   color: white;
   border-radius: 50px;
 }
-  nav li{
+  .barra li{
     flex-grow:1;
     text-align:center;
   }
 }
-nav a{
+.barra a{
     font-family: 'Questrial', sans-serif;
 }
-nav img{
+.barra img{
   border-radius: 25%;
 }
 
@@ -86,55 +97,9 @@ nav img{
   width: 70px;
   height: 70px;
 }
-main {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-  color: white;
 
-}
-main form{
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  font-size: 25px;
-  color: black;
-  font-family: 'Questrial', sans-serif;
-}
-main form button{
-  width: 100px;
-  height: 40px;
-  text-align: center;
-  margin: 0 auto;
-  font-family: 'Questrial', sans-serif;
-  background: grey;
-  color: white;
-  line-height: 40px;
-  align-self: center;
-  margin-bottom: 30px;
-}
-main form label{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 20px;
-}
 
-main form input{
-  width: 400px;
-  height: 30px;
-  margin-bottom: 20px;
-  font-size: 20px;
-
-}
-
-main form input placeholder {
-  font-size: 30px;
-}
-
-/* ACA TERMINA EL NAV */
+/* ACA TERMINA EL .barra */
 
 
 /*aca arrancan los estilos del footer*/

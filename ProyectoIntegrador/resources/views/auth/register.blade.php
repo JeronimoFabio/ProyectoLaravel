@@ -3,11 +3,12 @@
     
 @section('content')
 <div class="containerPrin">
+
+<link rel="stylesheet"  href="/css/signin.css">
+  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 @include('/includes/header');
 <div class="container">
 
-    <link rel="stylesheet"  href="/css/signin.css">
-  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
   
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -76,9 +77,17 @@
                             </div>
                         </div>
                     </form>
-                    <button class="btn btn-outline-warning">
+                    <div class="buttonSub">
+                        <button class="btn btn-outline-warning">
                         <a href="/viewss/inicio">Volver al Home</a>
-                    </button>
+                        </button>
+                        <div>
+                            ¿Ya tienes cuenta?
+                        <button class="btn btn-outline-warning">
+                        <a href="/login">Ingresar</a>
+                        </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

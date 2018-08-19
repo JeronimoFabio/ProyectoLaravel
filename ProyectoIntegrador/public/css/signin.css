@@ -9,6 +9,7 @@
   width: 100%;
   display: inline-block;
 }
+
 /* barra de navegacion de la pagina */
 .barra {
   display: flex;
@@ -54,6 +55,10 @@ form label{
 }
 .card{
   color:black;
+}
+.buttonSub{
+  display: flex;
+  justify-content: space-around;
 }
 
 #logo{
