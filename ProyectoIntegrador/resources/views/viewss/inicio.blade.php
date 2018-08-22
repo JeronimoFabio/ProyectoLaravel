@@ -21,9 +21,9 @@ namespace app\http\controller\auth;
   @include('includes/header');
    
   <div class="login">
-  <a href="/login">Ingresar</a>
-  <a href="/register">Registración</a>
-  <a  href="/login">Log Out</a>
+    <a href="/login">ingresar</a>
+    <a href="/register">Registración</a>
+  <!--<a href="/login">Log Out</a> -->
   </div>
 
 <!--contenido-->
