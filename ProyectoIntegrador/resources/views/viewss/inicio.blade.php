@@ -1,3 +1,6 @@
+<?php 
+namespace app\http\controller\auth;
+ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,6 +10,11 @@
   <link rel="stylesheet"  href="/css/home.css">
   <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
 </head>
+<script>
+ 
+
+  
+</script>
 <body>
    <div class="container">
 
@@ -15,6 +23,7 @@
   <div class="login">
   <a href="/login">Ingresar</a>
   <a href="/register">Registración</a>
+  <a  href="/login">Log Out</a>
   </div>
 
 <!--contenido-->
