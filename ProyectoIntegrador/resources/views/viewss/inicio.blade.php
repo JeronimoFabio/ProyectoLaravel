@@ -1,6 +1,4 @@
-<?php 
-namespace app\http\controller\auth;
- ?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,7 +16,7 @@ namespace app\http\controller\auth;
 <body>
    <div class="container">
 
-  @include('includes/header');
+  @include('includes/header')
    
   <div class="login">
     <a href="/login">ingresar</a>
@@ -50,7 +48,7 @@ namespace app\http\controller\auth;
 
  <!-- FOOTER -->
  
-   @include('includes/footer');
+   @include('includes/footer')
    
 
    </div>

@@ -11,7 +11,7 @@
 <body>
    <div class="container">
      
-  @include('/includes/header');
+  @include('/includes/header')
        
   <div class="login">
   <a href="/login">Ingresar</a>
@@ -45,7 +45,7 @@
 
  <!-- FOOTER -->
  
-@include('/includes/footer');   
+@include('/includes/footer')
 
 </div>
 </body>

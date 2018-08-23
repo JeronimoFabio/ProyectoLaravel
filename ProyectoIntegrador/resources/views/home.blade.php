@@ -14,7 +14,10 @@
                         </div>
                     @endif
 
-                    You are logged in!
+                    Te has logueado con exito!
+                    <button class="btn btn-outline-warning">
+                        <a href="/viewss/inicio">Volver al home</a>
+                    </button>
                 </div>
             </div>
         </div>

@@ -10,7 +10,7 @@
 </head>
 <body>
    <div class="container">
-   @include('/includes/header');
+   @include('/includes/header')
   <header>
     <img src="/images/serviciotecnico.jpg" id="logoserv" alt="logoserv">
   </header>
@@ -49,7 +49,7 @@
 </div>
 
  <!-- FOOTER -->
-   @include('/includes/footer');
+   @include('/includes/footer')
    </div>
 </body>
 
