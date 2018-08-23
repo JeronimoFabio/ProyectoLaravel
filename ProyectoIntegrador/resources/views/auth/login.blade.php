@@ -3,10 +3,10 @@
 <div class="containerPrinc">
     <link rel="stylesheet"  href="/css/login.css">
     <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-    @include('/includes/header');
+    
 <div class="container">
     
-    
+    @include('/includes/header')
 
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -14,7 +14,7 @@
                 <div class="card-header">{{ __('Ingresar') }}</div>
 
                 <div class="card-body">
-                    <form method="POST" action="{{ route('login') }}" aria-label="{{ __('Login') }}">
+                    <form method="POST" action="{{  url('viewss/inicio') }} " aria-label="{{ __('Login') }}">
                         @csrf
 
                         <div class="form-group row">
@@ -86,8 +86,9 @@
     </div>
     
 </div>
-<div>
-    @include('/includes/footer');
-    </div>
+
 </div>
+<div>
+    @include('/includes/footer')
+    </div>
 @endsection

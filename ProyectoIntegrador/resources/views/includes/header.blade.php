@@ -13,8 +13,8 @@
       @guest
  @else
                             
-                                <p id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre> Bievenido 
-                                    {{ Auth::user()->nombre }} <span class="caret"></span>
+                                <p id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre> Usuario:  
+                                    {{ Auth::user()->name }} <span class="caret"></span>
                                 </p>
 
                                 <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">

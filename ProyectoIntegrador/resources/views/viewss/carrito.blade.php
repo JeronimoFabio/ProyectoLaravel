@@ -1,7 +1,5 @@
-<?php
-//include('conexion.php');
-//include('clases/classProducto.php');
-?>
+
+
 <!DOCTYPE html>
 <html>
 <head>

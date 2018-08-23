@@ -25,6 +25,8 @@ Route::get('/viewss/contacto','Front\ContactoController@showContacto');
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/viewss/inicio', 'HomeController@index')->name('home');
 
 Route::get('/backRegister', 'BackUp\BackUpController@index');
+
+Route::get('/home', 'HomeController@index')->name('home');
