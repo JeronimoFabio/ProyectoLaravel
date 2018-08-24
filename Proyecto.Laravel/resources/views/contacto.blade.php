@@ -15,8 +15,8 @@
     <img src="/images/serviciotecnico.jpg" id="logoserv" alt="logoserv">
   </header>
   <div class="loginCont">
-  <a href="#">Ingresar</a>
-  <a href="#">Registrarse</a>
+  <a href="/login">Ingresar</a>
+  <a href="/register">Registrarse</a>
   </div>
 
 <!--contenido-->

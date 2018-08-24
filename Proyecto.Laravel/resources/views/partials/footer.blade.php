@@ -1,4 +1,4 @@
-<footer>
+<footer class="footer_register">
   <a href="https://www.facebook.com/LuxorGas.ShoppingDotBaires/" target="_blank">
     <img src="/images/iconofb.png" alt="iconofb">
   </a>

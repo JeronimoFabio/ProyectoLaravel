@@ -12,7 +12,10 @@
   
   @include('/partials/header')
  
-  
+  <div class="buttonsReg">
+  <a href="/login">Ingresar</a>
+  <a href="/register">Registrarse</a>
+  </div>
  
    @include('/partials/footer')
    

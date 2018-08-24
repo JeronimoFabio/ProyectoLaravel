@@ -14,8 +14,8 @@
   @include('/partials/header')
        
   <div class="loginfaq">
-  <a href="#">Ingresar</a>
-  <a href="#">Registrarse</a>
+  <a href="/login"">Ingresar</a>
+  <a href="/register"">Registrarse</a>
   </div>
 
 

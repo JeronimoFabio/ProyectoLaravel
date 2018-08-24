@@ -20,3 +20,4 @@ Route::get('/contacto','Front\ContactoController@showContacto');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+

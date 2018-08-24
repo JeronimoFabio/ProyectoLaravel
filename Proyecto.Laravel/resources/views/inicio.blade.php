@@ -19,8 +19,8 @@
   @include('partials/header')
    
   <div class="iniciobuttons">
-    <a href="#">Ingresar</a>
-    <a href="#">Registración</a>
+    <a href="/login"">Ingresar</a>
+    <a href="/register"">Registración</a>
   <!--<a href="/login">Log Out</a> -->
   </div>
 
