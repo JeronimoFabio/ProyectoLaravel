@@ -17,14 +17,15 @@
 
                 <div class="card-body">
                        
-              <?php $prodcutos = Product::All('products');
-
-                dd($productos);
-
-
-               ?>                     
-                    
-                     
+                 @foreach($productos as $producto)
+                   
+                   <tbody>
+                       <tr>
+                          <td>{{  $producto->name    }}</td>
+                          <td>{{  $producto->price    }}</td> <br>
+                       </tr>
+                   </tbody>
+                 @endforeach                   
                 </div>
             </div>
         </div>
