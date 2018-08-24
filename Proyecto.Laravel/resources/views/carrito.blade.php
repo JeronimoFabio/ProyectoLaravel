@@ -22,7 +22,7 @@
                    <tbody>
                        <tr>
                           <td>{{  $producto->name    }}</td>
-                          <td>{{  $producto->price    }}</td> <br>
+                          <td>{{ "$" . $producto->price    }}</td> <br>
                        </tr>
                    </tbody>
                  @endforeach                   
