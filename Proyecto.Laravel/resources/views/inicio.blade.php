@@ -19,15 +19,15 @@
   @include('partials/header')
    
   <div class="iniciobuttons">
-    <a href="/login"">Ingresar</a>
-    <a href="/register"">Registración</a>
+    <div class="reg"><a href="/login"">Ingresar</a></div> 
+    <div class="reg"><a href="/register"">Registración</a></div>
   <!--<a href="/login">Log Out</a> -->
   </div>
 
-<div class="logout">
+{{--<div class="logout">
    <button>
   <a href="logout">Logout</a>
-  </button>
+  </button>--}}
 </div>
 <main>
 

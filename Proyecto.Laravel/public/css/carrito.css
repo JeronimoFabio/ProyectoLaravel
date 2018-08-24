@@ -3,18 +3,36 @@
   margin: 0;
 }
 /*contiene el header y el contenido respectivo de la pagina*/
+
 .container {
-  display: flow-root;
+  display: flex;
   flex-direction: column;
   width: 100%;
+  height:650px;
   margin: 0 auto;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-between;
   background: white;
 }
-/*estilos del logo y los botones de signin y login */
 header{
 
+}
+.buttonsReg{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.buttonsReg a{
+    width: 90px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+    border-style: double;
+    line-height: 30px;
+    margin-right: 10px;
+    background: black;
 }
 /* barra de navegacion de la pagina */
 .barra {

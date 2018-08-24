@@ -17,7 +17,7 @@
  header {
 }
 /* barra de navegacion de la pagina */
-nav {
+.barra {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -28,8 +28,8 @@ nav {
   -moz-osx-font-smoothing: grayscale;
   background: black;
 }
-/* NAV */
-nav ul {
+/* .barra */
+.barra ul {
   display: flex;
   flex-direction: row;
   list-style: none;
@@ -38,49 +38,49 @@ nav ul {
   background: black;
   border-radius: 40px;
 }
-nav li a {
+.barra li a {
   color: white;
   display: block;
   text-decoration: none;
   padding: .5em 1em;
 }
-nav li a:hover {
+.barra li a:hover {
   background: tomato;
   color: white;
   border-radius: 50px;
 }
-  nav li{
+  .barra li{
     flex-grow:1;
     text-align:center;
   }
 }
-nav a{
+.barra a{
     font-family: 'Questrial', sans-serif;
 }
-nav img{
+.barra img{
   border-radius: 25%;
 }
 
-.login{
+.loginfaq{
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  margin-top: 10px;
 
 }
-.login a{
-  width: 80px;
-  height: 30px;
-  font-size: 17px;
-  text-align: center;
-  color: white;
-  font-family: 'Questrial', sans-serif;
-  text-decoration: none;
-  margin-top: 10px;
-  border-style: double;
-  line-height: 30px;
-  margin-right: 20px;
-  background: black;
+.loginfaq a{
+  width: 90px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Merriweather', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+    border-style: double;
+    line-height: 30px;
+    margin-right: 10px;
+    background: black;
 }
 
 #logo{
