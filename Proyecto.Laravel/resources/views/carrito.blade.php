@@ -1,25 +1,33 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Carrito</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=devise-width, initial-scale=1">
-  <link rel="stylesheet"  href="/css/carrito.css">
-  <link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
-</head>
-<body>
-   <div class="container">
-  
-  @include('/partials/header')
- 
-  <div class="buttonsReg">
-    <div class="reg"><a href="/login"">Ingresar</a></div> 
-    <div class="reg"><a href="/register"">Registración</a></div>
-  </div>
- 
-   @include('/partials/footer')
-   
-   </div>
-</body>
+@extends('layouts.app')
 
-</html>
+@section('content')
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">
+                    <thead>
+                        <tr>
+                            <th>Producto</th>
+                            <th>Precio</th>
+                            <th><a href="/inicio" class="btn btn-sm btn-primary">Elejir Mas</a></th>
+                        </tr>
+                    </thead>
+                </div>
+
+                <div class="card-body">
+                       
+              <?php $prodcutos = Product::All('products');
+
+                dd($productos);
+
+
+               ?>                     
+                    
+                     
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
