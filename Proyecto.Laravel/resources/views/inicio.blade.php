@@ -28,25 +28,25 @@
    <button>
   <a href="logout">Logout</a>
   </button>--}}
-</div>
+
 <main>
 
   <article class="cocinas">
     <img src="/images/cocinas.jpg" alt="cocinas">
-    <a href="/inicio">COCINAS</a>
+    <a href="/cocinas">COCINAS</a>
   </article>
   <article class="hornos">
     <img src="/images/hornos.jpg" alt="hornos">
-    <a href="/inicio">HORNOS</a>
+    <a href="/hornos">HORNOS</a>
   </article>
   <article class="anafes">
     <img src="/images/anafes.jpg" alt="anafes">
-    <a href="/inicio">ANAFES</a>
+    <a href="/anafes">ANAFES</a>
   </article>
   <article class="campanas">
 
     <img src="/images/campanas.jpg" alt="campanas">
-    <a href="/inicio">CAMPANAS</a>
+    <a href="/campana">CAMPANAS</a>
   </article>
 
 </main>

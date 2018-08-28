@@ -16,7 +16,8 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="css/header_register.css">
+    <link rel="stylesheet" href="/css/header_register.css">
+    
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -71,6 +72,7 @@
                             </li>
                         @endguest
                     </ul>
+                    
                 </div>
             </div>
         </nav>

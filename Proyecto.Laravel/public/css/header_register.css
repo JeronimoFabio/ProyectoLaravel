@@ -65,3 +65,30 @@
   margin-top: 80px;
 
 }
+@media (max-width: 600px) {
+      .barra {
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .barra ul {
+      flex-direction: column;
+      margin-top: 5px;
+    }
+
+    .barra li {
+      flex-direction: column;
+      margin-top: 5px;
+    }
+    .barra a {
+      font-size: 12px;
+    }
+    .loginCont{
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    footer img{
+      width: 30px;
+
+    }
+}

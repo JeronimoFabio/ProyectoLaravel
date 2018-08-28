@@ -17,8 +17,6 @@ class CreateTableCategories extends Migration
             $table->increments('id');
             // */ ****/
             $table->string('name');
-            $table->text('description')->charset('utf8');
-            $table->smallInteger('status');
             // $table->string('slug');
             // */ ****/
             $table->timestamps();

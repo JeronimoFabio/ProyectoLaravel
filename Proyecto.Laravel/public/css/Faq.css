@@ -148,16 +148,24 @@ footer{
 
 /* MOBILE */
 @media (max-width: 600px) {
-      nav {
+      .barra {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
-    nav ul {
+    .barra ul {
       flex-direction: column;
       margin-top: 5px;
     }
-    .login{
+
+    .barra li {
+      flex-direction: column;
+      margin-top: 5px;
+    }
+    .barra a {
+      font-size: 12px;
+    }
+    .loginfaq{
       flex-direction: row;
       justify-content: space-around;
     }

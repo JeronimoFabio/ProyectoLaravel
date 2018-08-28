@@ -21,31 +21,17 @@
 
 <!--contenido-->
 <main class="contacto">
- <form>
-   <div class="columna1">
-     <label for="nombre">Nombre</label>
-    <input type="text" name="nombre" placeholder="ingrese su nombre">
-     <label for="apellido">Apellido</label>
-    <input type="text" name="apellido" placeholder="ingrese su apellido">
-     <label for="dni">D.N.I</label>
-    <input type="number" name="dni" placeholder="ingrese su dni">
-     <label for="email">E-mail</label>
-    <input type="email" name="email" placeholder="ingrese su email">
-   </div>
-   <div class="columna2">
-       <label for="telefono">Telefono</label>
-    <input type="number" name="telefono" placeholder="ingrese su numero">
-      <label for="provincia">Provincia</label>
-    <input type="text" name="provincia" placeholder="ingrese su provincia">
-      <label for="localidad">Localidad</label>
-    <input type="text" name="localidad" placeholder="ingrese su localidad">
-      <label for="direccion">Direccion</label>
-    <input type="text" name="direccion" placeholder="ingrese su direccion">
-   </div>
- </form>
+ 
+  <p class="est">Estamos para ayudarte</p>
+ 
+<p class="lux">Luxor te ofrece la posibilidad de contactarte de manera telefónica para que puedas despejar tus dudas, y asesorarte con uno de nuestros expertos.
+  <br>
+Teléfono de contacto: +54 (0341) 410-6713
+<br>
+Horarios: Lunes a Viernes 10:00 a.m. - 22:00 p.m.</p>
+
 </main>
 <div class="botonenviar">
-<button type="sumbit" name="enviar">Enviar</button>
 </div>
 
 

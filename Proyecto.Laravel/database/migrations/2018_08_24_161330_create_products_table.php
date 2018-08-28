@@ -16,7 +16,7 @@ class CreateProductsTable extends Migration
             $table->string('photo');
             $table->float('price')->unsigned();
             $table->integer('stock')->unsigned()->default(0);
-            $table->integer('categories_id')->unsigned()->default(1);
+            $table->integer('category_id')->unsigned()->default(1);
             //***// */
             $table->timestamps();
         });

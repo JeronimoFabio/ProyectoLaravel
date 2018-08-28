@@ -34,6 +34,16 @@ body{
   background: black;
 }
 /* NAV */
+.est{
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+.lux{
+  font-size: 26px;
+  display: flex;
+  justify-content: center;
+}
 .barra ul {
   display: flex;
   flex-direction: row;
@@ -125,12 +135,17 @@ footer{
 
 /* MOBILE */
 @media (max-width: 600px) {
-      nav {
+      .barra {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
     }
-    nav ul {
+    .barra ul {
+      flex-direction: column;
+      margin-top: 5px;
+    }
+
+    .barra a {
       flex-direction: column;
       margin-top: 5px;
     }
