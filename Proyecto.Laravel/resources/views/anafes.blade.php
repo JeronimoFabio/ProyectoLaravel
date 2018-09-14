@@ -24,15 +24,17 @@
 
 	<div><article>
 		<img src="/images/Anafes/anafes.jpg" alt="anafes">
+<ul>
 		{{$anafes->name}}
 		<br>
 		{{$anafes->description}}
 		<br>
 		{{ "$" . $anafes->price}}
 		<br>
+</ul>
 	</article>
 	<a href="/carrito/add/{{$anafes->id}}">
-	<button type="button" class="btn btn-warning">Agregar al carrito</button></a>
+	<button type="button" >Agregar al carrito</button></a>
 	</div>
 	@endforeach
 
