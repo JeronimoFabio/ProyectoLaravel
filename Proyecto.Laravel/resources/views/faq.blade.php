@@ -17,13 +17,21 @@
   <div class="reg"><a href="/login"">Ingresar</a></div> 
   <div class="reg"><a href="/register"">Registración</a></div>
   </div>
+<script type="text/javascript">
+ window.addEventListener("load",function(){
 
+ document.getElementById("prueba").addEventListener("click",function(event){
+         
+ });
+ });
+
+</script>
 
 <main>
   <h1>Preguntas Frecuentes:</h1>
   <details>
-    <summary>¿Hace cuanto están en el mercado?</summary>
-    <p>Llevamos más de 5 años.</p>
+    <summary id="prueba">¿Hace cuanto están en el mercado?</summary>
+    <p id="prueba2">Llevamos más de 5 años.</p>
   </details><details>
     <summary>¿Hay repuestos en el país?</summary>
     <p>Somos fabricantes, por lo que los repuestos son de facil acceso.</p>

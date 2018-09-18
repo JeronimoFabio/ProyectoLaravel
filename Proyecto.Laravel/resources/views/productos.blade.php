@@ -12,7 +12,7 @@
                             <th>Tu compra   ({{count($carrito)}})</th>
                         
                             <th><a href="/inicio" class="btn btn-sm btn-primary">Seguir Comprando</a></th>
-                            <th><a href="/cart/destroy"><input id="btn-right" type="button" Value="Vaciar Carrito">  </a></th>
+                            <th><a href="/cart/destroy"><input id="btn-right" class="btn btn-warning" type="button" Value="Vaciar Carrito">  </a></th>
                         </tr>
                     </thead>
                 </div>
@@ -34,7 +34,7 @@
                             No hay productos
                         @endforelse
     <br><br><br>
-    <button class="">Comprar</button>
+    <button class="btn btn-danger">Comprar</button>
     </div>
                 </div>
             </div>
